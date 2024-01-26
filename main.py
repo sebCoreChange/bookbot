@@ -30,7 +30,7 @@ def get_book_size(book):
     """
     words = book.split()
     word_count = len( words )
-    print( f"The book is { word_count } words long." )
+    print( f"{ word_count } words found in the document" )
     return word_count
 
 def letter_counter(book):
